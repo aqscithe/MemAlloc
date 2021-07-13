@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:CYGWIN_PATH}/usr/x86_64-w64-mingw32/sys-root/mingw/include/**",
+                "${env:CYGWIN_PATH}/lib/gcc/x86_64-w64-mingw32/9.2.0/include/**"
+            ],
+            "defines": [
+                "_GNU_SOURCE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "${env:CYGWIN_PATH}/bin/x86_64-w64-mingw32-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

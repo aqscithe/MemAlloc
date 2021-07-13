@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "**/*.swp": true,
+        "**/*.o": true,
+        "**/*.d": true
+    },
+    "files.associations": {
+        "assert.h": "c",
+        "sdl.h": "c",
+        "game.h": "c",
+        "stdbool.h": "c",
+        "sdl_rwops.h": "c",
+        "stdlib.h": "c",
+        "sdl_log.h": "c",
+        "sdl_stdinc.h": "c",
+        "breakout_internal.h": "c"
+    }
+}
